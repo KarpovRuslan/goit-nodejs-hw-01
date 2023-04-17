@@ -1,0 +1,28 @@
+{
+  "name": "goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "goit-nodejs-hw-01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarpovRuslan/goit-nodejs-hw-01.git"
+  },
+  "author": "Ruslan Karpov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarpovRuslan/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/KarpovRuslan/goit-nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
